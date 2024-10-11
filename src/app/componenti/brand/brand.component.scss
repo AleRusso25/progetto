@@ -1,0 +1,33 @@
+
+.card.available {
+  background-color: #d4edda; // Verde chiaro per "disponibile"
+  border-color: #c3e6cb;
+}
+
+.card.not-available {
+  background-color: #f8d7da; // Rosso chiaro per "non disponibile"
+  border-color: #f5c6cb;
+}
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.btn-primary {
+  margin-top: 10px;
+}
